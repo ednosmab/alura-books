@@ -8,10 +8,12 @@
 
 - ``HTML 5``
 - ``CSS 3``
-- ``Template grid``
-- ``Flexbox``
-- ``Media queries``
-- ``Mobile-first``
+  - ``Template grid``
+  - ``Flexbox``
+  - ``Media queries``
+  - ``Mobile-first``
+- ``Plugins``
+  - ``SwiperJS``
 - ``VS Code``
 - ``Versionamento Git``
 - ``Vercel``
