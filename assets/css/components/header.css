@@ -6,19 +6,22 @@
     position: relative;
 }
 .cabecalho__menu-hamburguer {
-    width: 24px;
-    height: 24px;
+    width: 85px;
+    height: var(--altura);
     background-image: url("../../images/Menu.svg");
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
+}
+.container label{
+    height: var(--altura);
 }
 
 .container {
     display: flex;
     align-items: center;
 }
-.container__imagem{
+.container__imagem:nth-child(1){
     padding: 1em;
 }
 
