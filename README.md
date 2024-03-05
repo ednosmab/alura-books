@@ -29,7 +29,11 @@
 
 ## 🌎 Veja como ficou
 
-<p>Disponível através do link: </p>
+<p>
+  Clique
+  <a href="https://alura-books-rust-tau.vercel.app/">aqui</a>
+  para acessar o projeto
+</p>
 
 <hr>
 
