@@ -16,6 +16,7 @@
   - ``SwiperJS``
 - ``VS Code``
 - ``Versionamento Git``
+- ``Github-pages``
 - ``Vercel``
 - ``Figma``
 
@@ -30,9 +31,12 @@
 ## 🌎 Veja como ficou
 
 <p>
-  Clique
-  <a href="https://alura-books-rust-tau.vercel.app/">aqui</a>
-  para acessar o projeto
+  Acesse pelo
+  <a href="https://ednosmab.github.io/alura-books/">Github-pages</a> :octocat:
+</p>
+<p>
+  Acesse pelo 
+  <a href="https://alura-books-rust-tau.vercel.app/">Vercel</a> 🔼
 </p>
 
 <hr>
