@@ -134,6 +134,7 @@
     */
     .opcoes {
         margin-right: auto;
+        margin-left: 2em;
     }
     .cabecalho {
         padding: 0 2em;
