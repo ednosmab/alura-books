@@ -104,11 +104,25 @@
         color: var(--preto);
     }
     .opcoes__item {
-        padding: 1.9em;
+        padding: 2em 1em;
         text-transform: uppercase;
     }
     .opcoes__link {
         text-decoration: none;
+    }
+    .opcoes__botao:hover ~ .opcoes__rotulo > .opcoes__item,
+    .opcoes__botao:checked ~ .opcoes__rotulo > .opcoes__item {
+        background: var(--azul-degrade);
+        color: var(--branco);
+    }
+    .opcoes__botao:checked ~ .lista-menu {
+        width: 25vw;
+    }
+    .lista-menu__item:hover {
+        background: var(--azul-degrade);
+    }
+    .lista-menu__item:hover > .lista-menu__link {
+        -webkit-text-fill-color: var(--branco);
     }
 
 }
