@@ -57,23 +57,16 @@
     text-transform: uppercase;
 }
 
-.opcoes__botao{
+.opcoes__botao, 
+.container__botao,
+.container__titulo,
+.opcoes,
+.container__texto {
     display: none;
 }
 .opcoes__botao:checked ~ .lista-menu{
     display: block;
     width: auto;
-}
-
-.container__botao {
-    display: none;
-}
-
-.container__titulo {
-    display: none;
-}
-.opcoes {
-    display: none;
 }
 
 @media screen and (min-width: 1024px) {
@@ -112,4 +105,27 @@
         text-decoration: none;
     }
 
+}
+
+@media screen and (min-width: 1728px) {
+    /**
+    * com "margin-right: auto" essa configuração tenta preencher todo o espaço disponível 
+    * no lado direito
+    */
+    .opcoes {
+        margin-right: auto;
+    }
+    .cabecalho {
+        padding: 0 2em;
+    }
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+    .container__texto {
+        display: block;
+    }
+    
 }
