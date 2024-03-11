@@ -13,6 +13,12 @@
     background-position: center;
     display: inline-block;
 }
+.container__botao:checked ~ .container__rotulo > .cabecalho__menu-hamburguer{
+    background-image: url("../../images/MenuAberto.svg");
+}
+.container__botao:checked ~ .container__rotulo {
+    background: var(--azul-degrade);
+}
 .container label{
     height: var(--altura);
 }
