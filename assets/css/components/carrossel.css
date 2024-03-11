@@ -84,6 +84,7 @@
 
     .swiper {
         width: 60%;
+        padding: .5em;
     }
     .swiper-pagination {
         margin: 2em 0 3em 0;
@@ -93,9 +94,31 @@
         display: block;
         top: 60%;
     }
+    .swiper-slide{
+        padding: 1em;
+    }
+    .swiper-slide > img {
+        box-shadow: 1px 4px 10px 1px var(--cinza-sombra);
+
+    }
     .card {
         width: 40%;
         margin: 3em auto;
+    }
+    .swiper-button-prev {
+        left: -.5px;
+    }
+    .swiper-button-next {
+        right: 23px;
+    }
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+        font-size: 1em;
+        padding: 1.3em;
+        background: var(--azul-degrade);
+        border-radius: 50%;
+        color: var(--branco);
+        box-shadow: 1px 3px 4px var(--cinza-sombra);
     }
 }
 
@@ -111,6 +134,14 @@
     } 
     .swiper {
         margin-right: 2.5em;
+    }
+    .swiper-button-next {
+        right: 24px;
+    }
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+        font-size: 1em;
+        padding: 1.3em;
     }
     .swiper-pagination {
         margin: 1em 0;
