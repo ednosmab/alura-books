@@ -55,3 +55,19 @@
         align-self: center;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .contato {
+        padding: 4em 28vw;
+    }
+    .contato__titulo {
+        line-height: 1em;
+    }
+    .contato__descricao {
+        width: 60%;
+    }
+    .contato__texto {
+        line-height: 1em;
+    }
+    
+}
