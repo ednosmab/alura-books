@@ -41,3 +41,13 @@
         color: var(--cinza-link-rodape);
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .rodape {
+        padding: 4em 0;
+    }
+    .lista-rodape {
+        border-left: 1px solid var(--cinza);
+        padding-left: 1em;
+    }
+}
