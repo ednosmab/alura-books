@@ -6,9 +6,7 @@
 
 ![Em uma mesa clara com dois pequenos vazos no lado direito, no lado esquerdo e preenchendo quase toda a imagem, um monitor de computador, logo abaixo um celular e um tables, ambos com o site da alura books](https://github.com/ednosmab/alura-books/assets/37445442/6ff69144-6d1f-4013-b944-06deed9a5b46)
 
-<h3>Tecnologias utilizadas</h3>
-
-## ✔️ Tecnologias utilizadas
+## 🪛 Tecnologias utilizadas
 
 - ``HTML 5``
 - ``CSS 3``
